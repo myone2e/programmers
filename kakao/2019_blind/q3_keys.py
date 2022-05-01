@@ -20,7 +20,6 @@ def solution(relation):
     for i in comb: # i 는 가능한 조합 하나
         # item: 각 row  / key: 0,1,2.. / i 가능한 조합 튜플
         tmp = [tuple([item[key] for key in i]) for item in relation] # 바깥꺼가 먼저 돈다! => 튜플로 이루어진 리스트가 생성됨
-        print(tmp)
         if len(set(tmp)) == n_row: # 유일성
             flag = True
 

@@ -1,4 +1,4 @@
-n, m = map(int, input().split())
+n, m = map(int, input().split()) # 데이터 개수, 찾고자 하는 합
 
 arr = list(map(int, input().split()))
 
